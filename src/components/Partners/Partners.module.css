@@ -1,0 +1,48 @@
+.partners {
+  width: 1440px;
+  height: 280px;
+  flex-shrink: 0;
+  background: #1a151d;
+  border: 0.1px solid #1a151d;
+  text-align: center;
+}
+
+.partners_heading {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  /* border: 1px solid red; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 59px;
+  margin-bottom: 52px;
+}
+
+.one {
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  background: linear-gradient(
+    259deg,
+    #fff 41.88%,
+    rgba(255, 255, 255, 0.21) 61.39%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-align: center;
+
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-bottom: 63px;
+}

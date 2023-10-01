@@ -1,0 +1,18 @@
+.SecondaryButton {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 2px;
+  border: 2px solid #0c070f;
+  background: #29252c;
+
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

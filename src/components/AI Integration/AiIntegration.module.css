@@ -1,0 +1,87 @@
+.AiIntegration {
+  display: flex;
+  width: 1440px;
+  height: 956px;
+  flex-shrink: 0;
+  background: #141315;
+  position: relative;
+}
+
+.roboImage {
+  width: 501px;
+  height: 600px;
+  flex-shrink: 0;
+  margin-left: 183px;
+  margin-top: 178px;
+  margin-bottom: 178px;
+  z-index: 99;
+}
+
+.ellipse1 {
+  width: 530px;
+  height: 237px;
+  flex-shrink: 0;
+  border-radius: 530px;
+  background: #7d5400;
+  filter: blur(50px);
+  position: absolute;
+  left: 102px;
+  top: 190px;
+
+  animation-name: ellipse1;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ellipse1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 300px);
+  }
+}
+
+.details {
+  /* border: 2px solid red; */
+  margin-top: 233px;
+  margin-left: 80px;
+}
+
+.p1 {
+  width: 475px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.p2 {
+  width: 549px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 53px;
+  margin-left: 14px;
+}
+
+.list {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  margin-top: 48px;
+  margin-left: 14px;
+}
+
+.btns {
+  display: flex;
+  gap: 42px;
+  margin-top: 59.5px;
+  margin-left: 64.5px;
+}

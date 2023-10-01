@@ -1,0 +1,93 @@
+.OurTeamContainer {
+  width: 1440px;
+  height: 1024px;
+  flex-shrink: 0;
+  background: #0c070f;
+  border: 0.1px solid #0c070f;
+  border: 0.1px solid red;
+}
+
+.div {
+  margin-top: 68px;
+  margin-left: 75px;
+}
+
+.contributors {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  background: linear-gradient(93deg, #fdd433 32.86%, #ad900c 82.44%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 26px;
+}
+.ourTeam {
+  width: 231px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.card_container {
+  /* width: auto;
+  height: auto; */
+  border: 1px solid blue;
+  position: relative;
+}
+
+.div1 {
+  position: absolute;
+  /* top: calc(50% - 271.27px);
+  top: 193px;
+  left: calc(50% - 298px); */
+  top: 150px;
+  left: 480.54px;
+  background-color: #ab8510;
+  width: 32.33rem;
+  height: 47.73rem;
+  overflow: hidden;
+  transform: rotate(-5.3deg);
+  transform-origin: 0 0;
+  border: 1px solid green;
+}
+
+.div2 {
+  position: absolute;
+  /* top: calc(50% - 319px);
+  top: 193px;
+  left: calc(50% - 133.08px); */
+  top: 100px;
+  left: 480.54px;
+  background-color: #ab8510;
+  width: 31.35rem;
+  height: 46.29rem;
+  overflow: hidden;
+  transform: rotate(8.53deg);
+  transform-origin: 0 0;
+  font-size: 1.61rem;
+  border: 1px solid blue;
+}
+
+.div3 {
+  position: absolute;
+  /* top: calc(50% - 319px); */
+  /* top: 193px; */
+  /* left: calc(50% - 239.46px); */
+  top: 50px;
+  left: 480.54px;
+  background-color: #ab8510;
+  /* border: 1.1px solid rgba(217, 252, 76, 0.23); */
+  border: 1px solid red;
+  box-sizing: border-box;
+  width: 33.43rem;
+  height: 49.36rem;
+  overflow: hidden;
+  font-size: 1.72rem;
+}

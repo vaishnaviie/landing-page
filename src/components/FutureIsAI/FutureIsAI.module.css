@@ -1,0 +1,75 @@
+.FutureIsAI {
+  display: inline-flex;
+  padding: 20px 0px 19px 125px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 188px;
+  background: #0c070f;
+}
+
+.box1 {
+  /* border: 2px solid red; */
+  width: 595px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.box2 {
+  /* border: 2px solid purple; */
+  width: 530px;
+  box-sizing: border-box;
+  /* margin-left: 44px; */
+}
+
+.p1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.p2 {
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  background: linear-gradient(
+    98deg,
+    #936c1f 44.14%,
+    rgba(144, 105, 27, 0.6) 62.54%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.p4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.img {
+  width: 530px;
+  /* width: 758px;
+  height: 758px; */
+  /* flex-shrink: 0; */
+  /* object-fit: cover; */
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}

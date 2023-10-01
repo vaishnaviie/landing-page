@@ -1,0 +1,154 @@
+.Pocket {
+  display: flex;
+  width: 1440px;
+  padding: 134px 80px 152px 80px;
+  justify-content: center;
+  align-items: center;
+  background: #141315;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1280px;
+  height: 542px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #8a6305;
+  display: flex;
+}
+
+.left {
+  display: flex;
+  width: 751px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 26px;
+  margin-left: 43px;
+  margin-top: 61px;
+}
+
+.p1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(93deg, #f6c141 32.86%, #c7b895 82.44%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p2 {
+  width: 377px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.p3 {
+  width: 719px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.telegram {
+  width: 305px;
+  height: 82px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 24px;
+  align-items: flex-end;
+  align-content: flex-end;
+  gap: 24px;
+  flex-wrap: wrap;
+  border-radius: 14px;
+  border: 1px solid #fafafa;
+  background: #000;
+  /* border: 1px solid red; */
+}
+
+/* svg {
+  border: 1px solid blue;
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-end;
+  align-content: flex-end;
+  gap: 24px;
+  flex-wrap: wrap;
+  border-radius: 14px;
+  border: 1px solid #fafafa;
+  background: #000;
+} */
+
+.telegram .p1 {
+  color: #fafafa;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.telegram .p2 {
+  color: #fafafa;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.phone_img_container {
+  position: relative;
+}
+
+.phoneImg {
+  width: 476px;
+  height: 525px;
+  flex-shrink: 0;
+  margin-top: 17px;
+}
+
+.logo_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid green; */
+  width: 125.6px;
+  position: absolute;
+  right: 160.66px;
+  top: 271.5px;
+  background-color: #0c070f;
+  transform: rotate(20deg);
+}
+
+span {
+  color: #fff;
+  font-family: DM Mono;
+  font-size: 17.857px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132.2%;
+  letter-spacing: 2.768px;
+  /* position: absolute;
+  right: 237.38px;
+  top: 271.5px; */
+}
+
+.logo {
+  width: 73.661px;
+  height: 70.982px;
+  flex-shrink: 0;
+  /* position: absolute;
+  right: 160.66px;
+  top: 278.51px; */
+}

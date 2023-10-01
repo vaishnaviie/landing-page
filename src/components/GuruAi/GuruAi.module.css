@@ -1,0 +1,76 @@
+.guruAi {
+  text-align: center;
+  width: 1440px;
+  height: 1181px;
+  flex-shrink: 0;
+  background: #0c070f;
+  border: 0.1px solid #0c070f;
+  position: relative;
+}
+
+.p1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(93deg, #d69f31 32.86%, #926c1f 82.44%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 107px;
+  margin-bottom: 38px;
+}
+.p2 {
+  width: 456px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: auto;
+  margin-bottom: 38px;
+}
+.p3 {
+  width: 595px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.ellipse1 {
+  width: 530px;
+  height: 237px;
+  flex-shrink: 0;
+  border-radius: 530px;
+  background: #7d5400;
+  filter: blur(50px);
+  position: absolute;
+  left: 417px;
+  top: 400px;
+
+  animation-name: ellipse1;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ellipse1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 300px);
+  }
+}
+
+.roboImage {
+  z-index: 2;
+  position: relative;
+}

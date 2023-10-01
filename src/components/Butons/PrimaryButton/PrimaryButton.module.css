@@ -1,0 +1,20 @@
+.PrimaryButton {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 2px;
+  border: 2px solid #c2a502;
+  background: linear-gradient(116deg, #d69f31 33.39%, #936c1f 69.3%);
+
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  z-index: 99;
+}

@@ -1,0 +1,18 @@
+.text {
+  display: inline-flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 132.2%; /* 23.796px */
+  letter-spacing: 2.79px;
+  text-transform: uppercase;
+}

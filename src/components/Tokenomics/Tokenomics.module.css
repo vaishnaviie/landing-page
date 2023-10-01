@@ -1,0 +1,105 @@
+.Tokenomics {
+  width: 1440px;
+  height: 1065px;
+  flex-shrink: 0;
+  background: #141315;
+  border: 0.1px solid #141315;
+}
+
+.p1 {
+  width: 302px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: auto;
+  margin-top: 42px;
+  margin-bottom: 57px;
+}
+
+.p2 {
+  width: 973px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: auto;
+}
+
+.contractAddr {
+  width: 1128px;
+  height: 372px;
+  flex-shrink: 0;
+  border: 1px solid #d69f31;
+  background: #1b1a1c;
+  margin: auto;
+  margin-top: 127.5px;
+}
+
+.ContractAddrCardContainer {
+  display: flex;
+  gap: 98px;
+  width: 931px;
+  height: 86px;
+  margin: auto;
+  margin-bottom: 61px;
+  /* border: 1px solid red; */
+}
+
+.contractAddr .p1 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contractAddr .p2 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 63px;
+}
+
+.fivePercentContainer {
+  width: 528px;
+  height: 124px;
+  display: flex;
+  gap: 338px;
+  margin: auto;
+  /* border: 1px solid red; */
+  margin-top: 97px;
+}
+
+.fivePercent {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* border: 1px solid blue; */
+}
+
+.value {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* border: 1px solid green; */
+}

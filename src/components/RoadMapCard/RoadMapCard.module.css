@@ -1,0 +1,54 @@
+.RoadMapCard {
+  width: 474px;
+  height: 369px;
+  flex-shrink: 0;
+  background: #110c14;
+}
+
+.phase {
+  color: #fff;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-right: 16px;
+  margin-left: 47px;
+  display: inline-block;
+  margin-top: 27px;
+  margin-bottom: 48px;
+}
+
+.marketing {
+  color: rgba(255, 255, 255, 0.78);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 33px;
+  margin-bottom: 54px;
+}
+
+.heading {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 54px;
+  margin-left: 47px;
+}
+
+.description {
+  width: 401px;
+  color: rgba(255, 255, 255, 0.7);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.4%; /* 26.304px */
+  margin-left: 44px;
+}
